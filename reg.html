@@ -20,30 +20,31 @@
 </head>
 <body>
     <div id="container">
-    <form id="form">
+    <form action="conn.php" method="post" id="form">
         <h2>Register</h2>
         <tr>
             <td>Name :</td>
-            <td><input type="text" placeholder="Enter the name"/></td>
+            <td><input type="text" placeholder="Enter the name" name="name" id="name"/></td>
         </tr>
         <br>
         <tr>
             <td>Email :</td>
-            <td><input type="email" placeholder="Enter email"/></td>
+            <td><input type="email" placeholder="Enter email" name="email" id="email"/></td>
         </tr>
         <br>
         <tr>
             <td>Password :</td>
-            <td><input type="password" placeholder="Enter the password"/></td>
+            <td><input type="password" placeholder="Enter the password" name="password" id="password"/></td>
         </tr>
         <br>
         <tr>
             <td>Phone No :</td>
-            <td><input type="number" placeholder="Enter Phone number"/></td>
+            <td><input type="number" placeholder="Enter Phone number" name="phno" id="phno"/></td>
         </tr>
         <br>
-        <button>Submmit</button>
+        <button type="submit" value="submmit">Submmit</button>
     </form>
 </div>
+
 </body>
 </html>
